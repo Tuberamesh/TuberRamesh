@@ -52,8 +52,7 @@ header {
 
 .laptop-container {
     display: grid;
-    gap: 20px;
-    padding: 16px;
+    justify-content: centre;
 }
 
 /* Large screen: 3 laptops per row */
@@ -72,8 +71,7 @@ header {
 
 .laptop-item {
     background-color: white;
-    margin-top: 15px;
-    margin-left:85px;
+    margin:15px auto;
     border-radius: 23px;
     width: 250px;
     height: 400px;
