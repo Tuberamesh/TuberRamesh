@@ -105,8 +105,7 @@ header {
 
 .mobile-container {
     display: grid;
-    gap: 20px;
-    padding: 10px;
+    justify-content:centre;
 }
 
 /* Large screen: 3 mobile s per row */
@@ -119,15 +118,13 @@ header {
 /* Mobile: 2 mobile s per row */
 @media (max-width: 767px) {
     .mobile-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 .mobile-item {
     background-color: white;
-    margin-top: 14px;
-    margin-right: 7px;
-    margin-left: 10px;
+    margin:15px auto;
     border-radius: 23px;
     width: 250px;
     height: 373px;
