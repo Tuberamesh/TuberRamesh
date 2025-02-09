@@ -66,14 +66,14 @@ header {
 /* Mobile: 2 laptops per row */
 @media (max-width: 767px) {
     .laptop-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 .laptop-item {
     background-color: white;
     margin-top: 15px;
-    margin-left: 16px;
+
     border-radius: 23px;
     width: 250px;
     height: 400px;
